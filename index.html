@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LandingPage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.side-left').hover(function(){
+                $(this).css({
+                        width:"70%"
+                    });
+                $('.side-right').css({
+                    width: "30%"
+                });
+            });
+            $('.side-right').hover(function(){
+                $(this).css({
+                        width:"70%"
+                    });
+                $('.side-left').css({
+                    width: "30%"
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <center>
+                        <div class="row">
+                                <div class="box side-left">
+                                    <div class="mask">
+                                        <span class="text">Blog</span>
+                                        <button class="btn-wire">
+                                            Visit
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box side-right">
+                                    <div class="mask">
+                                        <span class="text">Portfolio</span>
+                                        <button class="btn-wire">
+                                            Visit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

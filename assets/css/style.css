@@ -1,0 +1,46 @@
+body{
+    overflow-y: hidden;
+}
+.side-left{
+    background-color: #E91E63;
+    background: url(../images/picLeft.jpg) center center no-repeat;
+    background-size: cover;
+    width: 50%;
+    transition: 0.9s ease-in-out;
+}
+.side-right{
+    background-color: #37474F;
+    background: url(../images/picRight.png) center center no-repeat;
+    background-size: cover;
+    width: 50%;
+    transition: 0.9s ease-in-out;
+}
+.mask{
+    position: relative;
+    height: 625px;
+    widows: 100%;
+    background-color: rgba(109, 76, 65, 0);
+    z-index: 999;
+    padding-top: 25%;
+}
+.side-right .mask{
+    background-color: rgba(69, 90, 100, 0.4);
+}
+.btn-wire{
+    background: #fff;
+    height: 50px;
+    width: 140px;
+    color: #333;
+    border: 2px solid #444;
+    border-radius: 100px;
+    margin: 5%;
+    font-size: 1.4em;
+    outline: none;
+}
+.text{
+    display: block;
+    font-size: 3em;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    padding-bottom: 1%;
+}
