@@ -17,7 +17,6 @@ body{
 }
 .mask{
     position: relative;
-    height: 625px;
     widows: 100%;
     background-color: rgba(109, 76, 65, 0);
     z-index: 999;
