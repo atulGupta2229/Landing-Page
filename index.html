@@ -27,6 +27,16 @@
                 });
             });
         });
+        $(document).ready(function(){
+            resizeDiv();
+        });
+        window.onresize=function(load){
+            resizeDiv();
+        }
+        function resizeDiv(){
+            vph=$(window).height();
+            $('.mask').css("height", vph+"px");
+        }
     </script>
 </head>
 <body>
